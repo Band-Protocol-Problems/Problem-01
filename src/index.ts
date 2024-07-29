@@ -8,12 +8,8 @@ function main() {
   });
 
   rl.question("Enter your input: ", (input) => {
-    if (!/^[SsRr]*$/.test(input)) {
-      console.error("Invalid input: string must contain only 'S' and 'R'");
-    } else {
-      const result = bossBabysRevenge(input.toUpperCase());
-      console.log("Result:", result);
-    }
+    const result = bossBabysRevenge(input);
+    console.log("Result:", result);
 
     rl.close();
   });

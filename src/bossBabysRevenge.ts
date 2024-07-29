@@ -1,4 +1,13 @@
 export function bossBabysRevenge(str: string): string {
+  if (!/^[SR]*$/.test(str)) {
+    throw new Error("Invalid input: string must contain only 'S' and 'R'");
+  }
+  if (str.length < 1 || str.length > 1000000) {
+    throw new Error(
+      "Invalid input: string length must be between 1 and 1,000,000 characters"
+    );
+  }
+
   let unresolvedShots = 0;
 
   // Iterate through the string.

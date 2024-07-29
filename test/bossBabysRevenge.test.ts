@@ -15,7 +15,6 @@ test("Additional test cases", () => {
   expect(bossBabysRevenge("SRSR")).toBe("Good boy");
   expect(bossBabysRevenge("R")).toBe("Bad boy");
   expect(bossBabysRevenge("S")).toBe("Bad boy");
-  expect(bossBabysRevenge("")).toBe("Good boy");
   expect(bossBabysRevenge("SRSRRR")).toBe("Good boy");
   expect(bossBabysRevenge("SSRRRR")).toBe("Good boy");
   expect(bossBabysRevenge("SSSRRRR")).toBe("Good boy");
