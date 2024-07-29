@@ -91,10 +91,8 @@ The iterative approach with a single integer counter to track the number of unre
 
 ### Why Not Stack?
 
-As mentioned earlier,
-
-- **Memory Complexity**: The stack can grow to the size of the input in the worst case, resulting in (`O(n)`) memory complexity.
-- **Usage**: The stack is useful for problems where you need to track nested or hierarchical structures, such as matching parentheses or managing complex sequences of operations.
+- **Memory Complexity**: In the worst case, the stack can grow to the size of the input, leading to O(n) memory complexity.
+- **Usage**: Implementing a stack-based solution can require more complex logic compared to other approaches.
 
 **Iterative Approach with Counter**:
 
