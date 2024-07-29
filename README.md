@@ -106,12 +106,12 @@ To run the code:
    ```
 2. Compile and run the _TypeScript_ code using `ts-node`:
    ```bash
-   npm start
+   npm run main
    ```
 
 ## Testing
 
 1. Run the `test` script.
    ```bash
-   npm test
+   npm run test
    ```
