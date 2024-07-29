@@ -39,13 +39,13 @@ he wants as long as he doesn’t shoot first.
 
 ### Examples
 
-|**Input**|**Output**|
-|---|---|
-|SRSSRRR|Good boy|
-|RSSRR|Bad boy|
-|SSSRRRRS|Bad boy|
-|SRRSSR|Bad boy|
-|SSRSRR|Good boy|
+| **Input** | **Output** |
+| --------- | ---------- |
+| SRSSRRR   | Good boy   |
+| RSSRR     | Bad boy    |
+| SSSRRRRS  | Bad boy    |
+| SRRSSR    | Bad boy    |
+| SSRSRR    | Good boy   |
 
 #### Explanation:
 
