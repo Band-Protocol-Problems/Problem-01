@@ -86,8 +86,8 @@ The iterative approach with a single integer counter to track the number of unre
 
 ### Complexity
 
-- Time Complexity: `O(n)` (a For Loop)
-- Space Complexity: `O(1)` (the `unresolvedShots` counter)
+- Time Complexity: `O(n)` (one for loop)
+- Memory Complexity: `O(1)` (the `unresolvedShots` counter)
 
 ### Why Not Stack?
 
