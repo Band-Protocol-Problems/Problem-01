@@ -47,11 +47,11 @@ describe("Boss Baby's Revenge", () => {
     it("should return 'Good boy' for input 'SSSRRRR'", () => {
       expect(bossBabysRevenge("SSSRRRR")).toBe("Good boy");
     });
-    it("should return 'Bad boy' for input 'SRSRS'.repeat(20000)", () => {
-      expect(bossBabysRevenge("SRSRS".repeat(20000))).toBe("Bad boy");
+    it("should return 'Bad boy' for input 'SRSRS'.repeat(200,000)", () => {
+      expect(bossBabysRevenge("SRSRS".repeat(200_000))).toBe("Bad boy");
     });
-    it("should return 'Good boy' for input 'S' + 'R'.repeat(999999)", () => {
-      expect(bossBabysRevenge("S" + "R".repeat(999999))).toBe("Good boy");
+    it("should return 'Good boy' for input 'S' + 'R'.repeat(999,999)", () => {
+      expect(bossBabysRevenge("S" + "R".repeat(999_999))).toBe("Good boy");
     });
   });
 });
