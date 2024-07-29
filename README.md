@@ -99,6 +99,14 @@ SSRSRR
 Good boy
 ```
 
+#### Explanation:
+
+In the first example, the first shot `S` has been avenged by the second action. The next two shots `SS` have been avenged by the following retaliation shots `RRR`.
+
+In the second example, the first action is revenge `R`, which makes Boss Baby a bad boy as he shouldn’t shoot first.
+
+In the third example, the first three shots `SSS` are avenged by at least 3 shots `RRRR`. However, the last shot has no revenge, hence making Boss Baby a bad boy.
+
 ## Solution
 
 ### Ideation
