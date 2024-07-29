@@ -93,9 +93,6 @@ The iterative approach with a single integer counter to track the number of unre
 
 - **Memory Complexity**: In the worst case, the stack can grow to the size of the input, leading to O(n) memory complexity.
 - **Usage**: Implementing a stack-based solution can require more complex logic compared to other approaches.
-
-**Iterative Approach with Counter**:
-
 - **Simplicity**: Iterative approach with counter uses a single integer to track unresolved shots. It’s straightforward and easier to understand.
 - **Performance and Memory Efficiency**: Both provide the same (`O(n)`) time complexity, but iterative approach with counter only requires (`O(1)`) space, while Stack approach requires at least an array (`O(n)`).
 
