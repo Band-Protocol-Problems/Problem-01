@@ -19,7 +19,7 @@ describe("Boss Baby's Revenge", () => {
     });
   });
 
-  describe("Additional test cases", () => {
+  describe("Additional Test Cases", () => {
     it("should return 'Good boy' for input 'SRSRRRRRRRRSR'", () => {
       expect(bossBabysRevenge("SRSRRRRRRRRSR")).toBe("Good boy");
     });
