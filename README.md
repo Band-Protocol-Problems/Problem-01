@@ -39,61 +39,61 @@ he wants as long as he doesn’t shoot first.
 
 ### Examples
 
-**Input:**
+**Input #1:**
 
 ```
 SRSSRRR
 ```
 
-**Output:**
+**Output #1:**
 
 ```
 Good boy
 ```
 
-**Input:**
+**Input #2:**
 
 ```
 RSSRR
 ```
 
-**Output:**
+**Output #2:**
 
 ```
 Bad boy
 ```
 
-**Input:**
+**Input #3:**
 
 ```
 SSSRRRRS
 ```
 
-**Output:**
+**Output #3:**
 
 ```
 Bad boy
 ```
 
-**Input:**
+**Input #4:**
 
 ```
 SRRSSR
 ```
 
-**Output:**
+**Output #4:**
 
 ```
 Bad boy
 ```
 
-**Input:**
+**Input #5:**
 
 ```
 SSRSRR
 ```
 
-**Output:**
+**Output #5:**
 
 ```
 Good boy
