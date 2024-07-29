@@ -1,23 +1,57 @@
 import { bossBabysRevenge } from "../src/bossBabysRevenge";
 
-test("Example test cases", () => {
-  expect(bossBabysRevenge("SRSSRRR")).toBe("Good boy");
-  expect(bossBabysRevenge("RSSRR")).toBe("Bad boy");
-  expect(bossBabysRevenge("SSSRRRRS")).toBe("Bad boy");
-  expect(bossBabysRevenge("SRRSSR")).toBe("Bad boy");
-  expect(bossBabysRevenge("SSRSRR")).toBe("Good boy");
-});
+describe("Boss Baby's Revenge", () => {
+  describe("Example test cases", () => {
+    it("should return 'Good boy' for input 'SRSSRRR'", () => {
+      expect(bossBabysRevenge("SRSSRRR")).toBe("Good boy");
+    });
+    it("should return 'Bad boy' for input 'RSSRR'", () => {
+      expect(bossBabysRevenge("RSSRR")).toBe("Bad boy");
+    });
+    it("should return 'Bad boy' for input 'SSSRRRRS'", () => {
+      expect(bossBabysRevenge("SSSRRRRS")).toBe("Bad boy");
+    });
+    it("should return 'Bad boy' for input 'SRRSSR'", () => {
+      expect(bossBabysRevenge("SRRSSR")).toBe("Bad boy");
+    });
+    it("should return 'Good boy' for input 'SSRSRR'", () => {
+      expect(bossBabysRevenge("SSRSRR")).toBe("Good boy");
+    });
+  });
 
-test("Additional test cases", () => {
-  expect(bossBabysRevenge("SRSRRRRRRRRSR")).toBe("Good boy");
-  expect(bossBabysRevenge("SSSSRRRR")).toBe("Good boy");
-  expect(bossBabysRevenge("RRRRSSSS")).toBe("Bad boy");
-  expect(bossBabysRevenge("SRSR")).toBe("Good boy");
-  expect(bossBabysRevenge("R")).toBe("Bad boy");
-  expect(bossBabysRevenge("S")).toBe("Bad boy");
-  expect(bossBabysRevenge("SRSRRR")).toBe("Good boy");
-  expect(bossBabysRevenge("SSRRRR")).toBe("Good boy");
-  expect(bossBabysRevenge("SSSRRRR")).toBe("Good boy");
-  expect(bossBabysRevenge("SRSRS".repeat(20000))).toBe("Bad boy");
-  expect(bossBabysRevenge("S" + "R".repeat(999999))).toBe("Good boy");
+  describe("Additional test cases", () => {
+    it("should return 'Good boy' for input 'SRSRRRRRRRRSR'", () => {
+      expect(bossBabysRevenge("SRSRRRRRRRRSR")).toBe("Good boy");
+    });
+    it("should return 'Good boy' for input 'SSSSRRRR'", () => {
+      expect(bossBabysRevenge("SSSSRRRR")).toBe("Good boy");
+    });
+    it("should return 'Bad boy' for input 'RRRRSSSS'", () => {
+      expect(bossBabysRevenge("RRRRSSSS")).toBe("Bad boy");
+    });
+    it("should return 'Good boy' for input 'SRSR'", () => {
+      expect(bossBabysRevenge("SRSR")).toBe("Good boy");
+    });
+    it("should return 'Bad boy' for input 'R'", () => {
+      expect(bossBabysRevenge("R")).toBe("Bad boy");
+    });
+    it("should return 'Bad boy' for input 'S'", () => {
+      expect(bossBabysRevenge("S")).toBe("Bad boy");
+    });
+    it("should return 'Good boy' for input 'SRSRRR'", () => {
+      expect(bossBabysRevenge("SRSRRR")).toBe("Good boy");
+    });
+    it("should return 'Good boy' for input 'SSRRRR'", () => {
+      expect(bossBabysRevenge("SSRRRR")).toBe("Good boy");
+    });
+    it("should return 'Good boy' for input 'SSSRRRR'", () => {
+      expect(bossBabysRevenge("SSSRRRR")).toBe("Good boy");
+    });
+    it("should return 'Bad boy' for input 'SRSRS'.repeat(20000)", () => {
+      expect(bossBabysRevenge("SRSRS".repeat(20000))).toBe("Bad boy");
+    });
+    it("should return 'Good boy' for input 'S' + 'R'.repeat(999999)", () => {
+      expect(bossBabysRevenge("S" + "R".repeat(999999))).toBe("Good boy");
+    });
+  });
 });
