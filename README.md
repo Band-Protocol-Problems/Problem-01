@@ -61,6 +61,8 @@ In the third example, the first three shots `SSS` are avenged by at least 3 shot
 
 Initially, this problem resembles the “Matching Parentheses” problem with a twist, which is typically solved using a stack. As each shot (`S`) could be pushed onto the stack, and each revenge (`R`) could pop from it. However, since our problem involves straightforward tracking of shots and their responses without nesting, a simpler approach can be used.
 
+![Jot Note](./src/assets/images/jot-note.jpg)
+
 ### Chosen Approach
 
 The iterative approach with a single integer counter to track the number of unresolved shots.
