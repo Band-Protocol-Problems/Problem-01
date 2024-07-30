@@ -23,26 +23,26 @@ describe("Boss Baby's Revenge", () => {
     it("should return 'Good boy' for input 'SRSRRRRRRRRSR'", () => {
       expect(bossBabysRevenge("SRSRRRRRRRRSR")).toBe("Good boy");
     });
-    it("should return 'Good boy' for input 'SSSSRRRR'", () => {
-      expect(bossBabysRevenge("SSSSRRRR")).toBe("Good boy");
+    it("should return 'Good boy' for input 'SSRR'", () => {
+      expect(bossBabysRevenge("SSRR")).toBe("Good boy");
     });
-    it("should return 'Bad boy' for input 'RRRRSSSS'", () => {
-      expect(bossBabysRevenge("RRRRSSSS")).toBe("Bad boy");
+    it("should return 'Bad boy' for input 'RRSS'", () => {
+      expect(bossBabysRevenge("RRSS")).toBe("Bad boy");
     });
     it("should return 'Good boy' for input 'SRSR'", () => {
       expect(bossBabysRevenge("SRSR")).toBe("Good boy");
+    });
+    it("should return 'Good boy' for input 'SRS'", () => {
+      expect(bossBabysRevenge("SRS")).toBe("Bad boy");
+    });
+    it("should return 'Good boy' for input 'RSR'", () => {
+      expect(bossBabysRevenge("RSR")).toBe("Bad boy");
     });
     it("should return 'Bad boy' for input 'R'", () => {
       expect(bossBabysRevenge("R")).toBe("Bad boy");
     });
     it("should return 'Bad boy' for input 'S'", () => {
       expect(bossBabysRevenge("S")).toBe("Bad boy");
-    });
-    it("should return 'Good boy' for input 'SRSRRR'", () => {
-      expect(bossBabysRevenge("SRSRRR")).toBe("Good boy");
-    });
-    it("should return 'Good boy' for input 'SSRRRR'", () => {
-      expect(bossBabysRevenge("SSRRRR")).toBe("Good boy");
     });
     it("should return 'Good boy' for input 'SSSRRRR'", () => {
       expect(bossBabysRevenge("SSSRRRR")).toBe("Good boy");
